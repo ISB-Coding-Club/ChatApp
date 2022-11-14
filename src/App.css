@@ -23,3 +23,10 @@ h3 {
     width: 92%;
     text-align: center;
 }
+
+.App {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-start;
+}

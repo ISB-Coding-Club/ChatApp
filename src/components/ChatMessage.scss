@@ -1,0 +1,38 @@
+.chat-message {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+    img {
+        margin-right: 1%;
+        height: 75%;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+
+        p {
+            margin: 0;
+        }
+
+        .info {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+            width: 100%;
+
+            .author {
+                font-weight: bold;
+            }
+
+            .date {
+                margin-left: 8px;
+            }
+        }
+    }
+}
